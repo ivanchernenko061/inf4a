@@ -14,7 +14,7 @@ int main() {
 }
 
 int binToDec(int num) {
-    int tab[32];
+    int tab[31];
     int i = 0;
 
     while (num != 0) {
