@@ -14,7 +14,7 @@ int main() {
 }
 
 int binToDec(int num) {
-    int tab[31];
+    int tab[32];
     int i = 0;
 
     while (num != 0) {
@@ -26,4 +26,5 @@ int binToDec(int num) {
         std::cout << tab[j];
     }
 
+    return 0;
 }
