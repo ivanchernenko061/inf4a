@@ -25,6 +25,4 @@ int binToDec(int num) {
     for (int j = i - 1; j >= 0; j--) {
         std::cout << tab[j];
     }
-
-    return 0;
 }
